@@ -4,7 +4,10 @@ const Footer = () => {
             <div className="w-full xl:w-5/6 max-w-screen-2xl ">
                 <div className="py-8 text-gray-400 text-sm px-5 ">
                     <p>UIcons by <a href="https://www.flaticon.com/uicons" target="_" className="text-indigo-500">Flaticon</a></p>
-                    <p>Site made using Preact (TS), Tailwind, Vite</p>
+                    <p>
+                        Site made using Preact (TS), Tailwind, Vite
+                        <a className="text-indigo-500" href="https://github.com/MitchGB/portfolio"> {">"} Source</a>
+                    </p>
                 </div>
                 <div className="flex justify-between items-center py-16 px-5 border-t border-gray-700">
 
