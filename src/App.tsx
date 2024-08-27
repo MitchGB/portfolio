@@ -5,6 +5,8 @@ import React, { render } from "preact/compat";
 
 import './index.css'
 import ErrorPage from "./pages/ErrorPage";
+import ProjectsPage from "./pages/ProjectsPage";
+import C4CProjectPage from "./pages/C4CProjectPage";
 
 const App = () => {
     const router = createBrowserRouter([
@@ -19,6 +21,22 @@ const App = () => {
                 }
             ]
         },
+        {
+            path: "/projects",
+            errorElement: <ErrorPage />,
+            children: [
+                {
+                    index: true,
+                    path: "",
+                    element: <ProjectsPage />
+                },
+                {
+                    index: true,
+                    path: "c4c",
+                    element: <C4CProjectPage />
+                }
+            ]
+        }
 
     ]);
 

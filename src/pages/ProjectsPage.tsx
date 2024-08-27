@@ -1,0 +1,69 @@
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+
+import cook4caldOverlay from "../assets/content/cook4cald-overlay.png";
+import novaOverlay from "../assets/content/flight-school.jpg";
+
+
+const ProjectsPage = () => {
+    return (
+        <>
+            <Navbar />
+
+            <section className="w-full flex justify-center dark:bg-zinc-900">
+                <div className="w-full xl:w-5/6 max-w-screen-2xl flex justify-center md:justify-between items-center p-5 pb-0 gap-10">
+                    <div className="py-32">
+                        <p className="text-black dark:text-white text-5xl font-semibold">My Projects.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section className="w-full flex justify-center bg-gray-100 dark:bg-zinc-800">
+                <div className="w-full xl:w-5/6 max-w-screen-2xl flex justify-center md:justify-between items-center p-5 gap-10">
+                    <div className="flex-col xl:flex-row flex w-full p-2 bg-zinc-100">
+                        <div className="w-full xl:w-3/12">
+                            <img className="w-52 xl:w-96 rounded-lg" src={cook4caldOverlay} />
+                        </div>
+                        <div className="w-full xl:w-7/12 xl:ml-4">
+                            <p className="text-black dark:text-white text-xl xl:text-3xl font-medium mb-2">COOK4CALD</p>
+                            <p className="text-black dark:text-white text-sm xl:text-lg">Solely developed the administrative website & underlying infrastructure for COOK4CALD.</p>
+                        </div>
+                        <div className="w-2/12 flex flex-col justify-end">
+                            <a href="/projects/c4c" className="mt-2 xl:mt-0 w-40 font-medium px-4 py-1.5 text-center rounded-md bg-indigo-500 text-white hover:bg-indigo-400">
+                                Check it out
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="w-full flex justify-center bg-gray-100 dark:bg-zinc-800">
+                <div className="w-full xl:w-5/6 max-w-screen-2xl flex justify-center md:justify-between items-center p-5 gap-10">
+                    <div className="flex-col xl:flex-row flex w-full p-2 bg-zinc-100">
+                        <div className="w-full xl:w-3/12">
+                            <img className="w-52 xl:w-96 rounded-lg" src={novaOverlay} />
+                        </div>
+                        <div className="w-full xl:w-7/12 xl:ml-4">
+                            <p className="text-black dark:text-white text-xl xl:text-3xl font-medium mb-2">RMIT Flight School Training Software</p>
+                            <p className="text-black dark:text-white text-sm xl:text-lg">
+                                Worked collaboratively with team members to create a VR, full motion flight simulation trainer
+                                for RMIT's Flight school. Utilising Eight360's NOVA.
+                            </p>
+                        </div>
+                        <div className="w-2/12 flex flex-col justify-end">
+                            <a href="/projects/flight-sim" className="mt-2 xl:mt-0 w-40 font-medium px-4 py-1.5 text-center rounded-md bg-indigo-500 text-white hover:bg-indigo-400">
+                                Check it out
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="h-32" />
+
+            <Footer />
+        </>
+    )
+}
+
+export default ProjectsPage;

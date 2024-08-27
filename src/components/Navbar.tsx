@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import githubLogo from "../assets/github-logo.svg";
+import githubLogo from "../assets/logo/github.svg";
 
 const Navbar = () => {
     return (

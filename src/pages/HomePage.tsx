@@ -8,12 +8,10 @@ import chartIcon from "../assets/chat-arrow-grow-FFFFFF.svg";
 import { calculateAge } from "../util/DateUtil";
 import LargeScaleComputing from "../components/HomePage/LargeScaleComputing";
 import WebDevelopment from "../components/HomePage/WebDevelopment";
-import { useIterativeTypewriter } from "../util/HomepageTypeHelloTypewriter";
 
 
 const HomePage = () => {
     const age = calculateAge(new Date(2002, 10, 22));
-    const greeting = useIterativeTypewriter();
 
     return (
         <>

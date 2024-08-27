@@ -1,4 +1,4 @@
-import { ErrorResponse, Link, useRouteError } from "react-router-dom";
+import { Link, useRouteError } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import { RouteError } from "../util/RouteError";
 
