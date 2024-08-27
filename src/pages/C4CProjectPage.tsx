@@ -133,7 +133,7 @@ const C4CProjectPage = () => {
                                 <p>
                                     As you can see, this site underwent a few major iterations.
                                     To put it simply, each iteration was a major learning experience for me which then further introduced me
-                                    to more, better, technologies.
+                                    to more, and better technologies.
                                 </p>
                                 <p className="mt-2">
                                     Additionally, the site utilises APIs from both
@@ -184,7 +184,7 @@ const C4CProjectPage = () => {
                         <p className="text-black dark:text-white">
                             Quick aside- if you like this project please consider donating :)
                         </p>
-                        <a className="text-indigo-500" href="https://www.cook4cald.org">Cook4Cald Webstie</a>
+                        <a className="text-indigo-500" target="_" href="https://www.cook4cald.org">Cook4Cald Webstie</a>
                         <p className="text-xs">(I didnt make the landing website)</p>
                     </div>
                 </div>

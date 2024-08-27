@@ -7,6 +7,7 @@ import './index.css'
 import ErrorPage from "./pages/ErrorPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import C4CProjectPage from "./pages/C4CProjectPage";
+import RMITFlightProjectPage from "./pages/RMITFlightProjectPage";
 
 const App = () => {
     const router = createBrowserRouter([
@@ -34,6 +35,11 @@ const App = () => {
                     index: true,
                     path: "c4c",
                     element: <C4CProjectPage />
+                },
+                {
+                    index: true,
+                    path: "flight-sim",
+                    element: <RMITFlightProjectPage />
                 }
             ]
         }
