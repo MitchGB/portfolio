@@ -29,7 +29,7 @@ const ProjectsPage = () => {
 
             <section className="w-full flex justify-center bg-gray-100 dark:bg-zinc-800">
                 <div className="w-full xl:w-5/6 max-w-screen-2xl flex justify-center md:justify-between items-center p-5 gap-10">
-                    <div className="flex-col xl:flex-row flex w-full p-2 bg-zinc-100">
+                    <div className="flex-col xl:flex-row flex w-full p-2 bg-zinc-100 dark:bg-zinc-800">
                         <div className="w-full xl:w-3/12">
                             <img className="w-52 xl:w-96 rounded-lg" src={cook4caldOverlay} />
                         </div>
@@ -48,7 +48,7 @@ const ProjectsPage = () => {
 
             <section className="w-full flex justify-center bg-gray-100 dark:bg-zinc-800">
                 <div className="w-full xl:w-5/6 max-w-screen-2xl flex justify-center md:justify-between items-center p-5 gap-10">
-                    <div className="flex-col xl:flex-row flex w-full p-2 bg-zinc-100">
+                    <div className="flex-col xl:flex-row flex w-full p-2 bg-zinc-100 dark:bg-zinc-800">
                         <div className="w-full xl:w-3/12">
                             <img className="w-52 xl:w-96 rounded-lg" src={novaOverlay} />
                         </div>
@@ -68,7 +68,7 @@ const ProjectsPage = () => {
                 </div>
             </section>
 
-            <section className="h-32" />
+            <section className="h-32 dark:bg-zinc-900" />
 
             <section className="w-full flex justify-center bg-gray-100 dark:bg-zinc-800">
                 <div className="w-full xl:w-5/6 max-w-screen-2xl flex justify-center md:justify-between items-center p-5 gap-10">
@@ -77,7 +77,7 @@ const ProjectsPage = () => {
             </section>
             <section className="w-full flex justify-center bg-gray-100 dark:bg-zinc-800">
                 <div className="w-full xl:w-5/6 max-w-screen-2xl grid grid-cols-1 md:grid-cols-2 gap-10 p-5">
-                    <div className="p-2 bg-zinc-100">
+                    <div className="p-2 bg-zinc-100 dark:bg-zinc-800">
                         <div className="flex flex-col xl:flex-row">
                             <div className="w-full xl:w-3/12 flex justify-center">
                                 <img className="h-20 xl:h-42 rounded-lg" src={bastionmc} />

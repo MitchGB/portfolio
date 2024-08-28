@@ -71,20 +71,20 @@ const C4CProjectPage = () => {
                             <p className="text-indigo-900 dark:text-white font-medium text-lg">Languages</p>
 
                             <div className="w-full flex flex-col xl:flex-row justify-start mt-5 gap-2">
-                                <div className="flex gap-3 rounded-lg bg-gray-100 p-2 justify-center align-middle">
+                                <div className="flex gap-3 rounded-lg bg-gray-100 dark:bg-zinc-800 p-2 justify-center align-middle">
                                     <img className="h-5 xl:h-5" src={phpLogo} />
-                                    <p className="font-medium">PHP</p>
+                                    <p className="text-black dark:text-white font-medium">PHP</p>
                                 </div>
-                                <div className="flex gap-3 rounded-lg bg-gray-100 p-2 justify-center align-middle">
+                                <div className="flex gap-3 rounded-lg bg-gray-100 dark:bg-zinc-800 p-2 justify-center align-middle">
                                     <img className="h-5 xl:h-5" src={javaLogo} />
-                                    <p className="font-medium">Java</p>
+                                    <p className="text-black dark:text-white font-medium">Java</p>
                                 </div>
-                                <div className="flex gap-3 rounded-lg bg-gray-100 p-2 justify-center align-middle">
+                                <div className="flex gap-3 rounded-lg bg-gray-100 dark:bg-zinc-800 p-2 justify-center align-middle">
                                     <img className="h-5 xl:h-5" src={typescriptLogo} />
-                                    <p className="font-medium">TypeScript</p>
+                                    <p className="text-black dark:text-white font-medium">TypeScript</p>
                                 </div>
-                                <div className="flex gap-3 rounded-lg bg-gray-100 p-2 justify-center align-middle">
-                                    <p className="font-medium">SQL</p>
+                                <div className="flex gap-3 rounded-lg bg-gray-100 dark:bg-zinc-800 p-2 justify-center align-middle">
+                                    <p className="text-black dark:text-white font-medium">SQL</p>
                                 </div>
                             </div>
                         </div>
@@ -96,53 +96,53 @@ const C4CProjectPage = () => {
                             </p>
 
                             <div className="w-full flex flex-col xl:flex-row justify-between mt-5 gap-2">
-                                <div className="rounded-lg bg-gray-100 p-5">
+                                <div className="rounded-lg bg-gray-100 dark:bg-zinc-800 p-5">
                                     <p className="text-indigo-500 font-medium text-md">Iteration 1</p>
                                     <p className="flex text-black font-medium gap-2">
                                         <img className="h-5 xl:h-5 rounded-lg" src={phpLogo} />
-                                        PHP Full stack
+                                        <p className="text-black dark:text-white">PHP Full stack</p>
                                     </p>
                                 </div>
 
-                                <div className="rounded-lg bg-gray-100 p-5">
+                                <div className="rounded-lg bg-gray-100 dark:bg-zinc-800 p-5">
                                     <p className="text-indigo-500 font-medium text-md">Iteration 2</p>
                                     <p className="flex justify-start text-black font-medium gap-2">
                                         <img className="h-5 xl:h-5 rounded-lg" src={reactLogo} />
-                                        React Frontend
+                                        <p className="text-black dark:text-white">React Frontend</p>
                                     </p>
                                     <p className="flex text-black font-medium gap-2">
                                         <img className="h-5 xl:h-5 rounded-lg" src={springLogo} />
-                                        Spring Backend
+                                        <p className="text-black dark:text-white">Spring Backend</p>
                                     </p>
                                 </div>
 
-                                <div className="rounded-lg bg-gray-100 p-5">
+                                <div className="rounded-lg bg-gray-100 dark:bg-zinc-800 p-5">
                                     <p className="text-indigo-500 font-medium text-md">Iteration 3 (Current)</p>
                                     <p className="flex justify-start text-black font-medium gap-2">
                                         <img className="h-5 xl:h-5 rounded-lg" src={preactLogo} />
-                                        Preact Frontend
+                                        <p className="text-black dark:text-white">Preact Frontend</p>
                                     </p>
                                     <p className="flex justify-start text-black font-medium gap-2">
                                         <img className="h-5 xl:h-5 rounded-lg" src={springLogo} />
-                                        Spring Backend
+                                        <p className="text-black dark:text-white">Spring Backend</p>
                                     </p>
                                 </div>
                             </div>
 
                             <div className="mt-5">
-                                <p>
+                                <p className="text-black dark:text-white">
                                     As you can see, this site underwent a few major iterations.
                                     To put it simply, each iteration was a major learning experience for me which then further introduced me
                                     to more, and better technologies.
                                 </p>
-                                <p className="mt-2">
+                                <p className="mt-2 text-black dark:text-white">
                                     Additionally, the site utilises APIs from both
-                                    <span className="font-medium px-1 bg-gray-100 rounded-md mx-1">
+                                    <span className="font-medium px-1 bg-gray-100 dark:bg-zinc-800 rounded-md mx-1">
                                         <img className="inline h-4 xl:h-4 -mt-0.5 mr-1" src={messagebirdLogo} />
                                         MessageBird
                                     </span>
                                     and
-                                    <span className="font-medium px-1 bg-gray-100 rounded-md mx-1">
+                                    <span className="font-medium px-1 bg-gray-100 dark:bg-zinc-800 rounded-md mx-1">
                                         <img className="inline h-4 xl:h-4 -mt-0.5 mr-1" src={tomtomLogo} />
                                         TomTom
                                     </span>.
@@ -153,21 +153,21 @@ const C4CProjectPage = () => {
                         <div className="mt-10">
                             <p className="text-indigo-900 dark:text-white font-medium text-lg">Deployment</p>
 
-                            <p className="">
+                            <p className="text-black dark:text-white">
                                 <span className="text-indigo-500">Iteration 1 </span>
                                 was initially hosted with HostGator, it was enough for a PHP solution- but proved to be not enough.
                             </p>
 
-                            <p className="mt-5">
+                            <p className="mt-5 text-black dark:text-white">
                                 <span className="text-indigo-500">Iteration 2 & 3 </span>
                                 utilised
-                                <span className="font-medium px-1 bg-gray-100 rounded-md mx-1">
+                                <span className="font-medium px-1 bg-gray-100 dark:bg-zinc-800 rounded-md mx-1">
                                     <img className="inline h-4 xl:h-4 -mt-0.5 mr-1" src={googleGLogo} />
                                     Google Cloud
                                 </span>
                                 for frontend, backend and SQL
                                 deployment with
-                                <span className="font-medium px-1 bg-gray-100 rounded-md mx-1">
+                                <span className="font-medium px-1 bg-gray-100 dark:bg-zinc-800 rounded-md mx-1">
                                     <img className="inline h-4 xl:h-4 -mt-0.5 mr-1" src={dockerLogo} />
                                     Docker
                                 </span>
@@ -185,7 +185,7 @@ const C4CProjectPage = () => {
                             Quick aside- if you like this project please consider donating :)
                         </p>
                         <a className="text-indigo-500" target="_" href="https://www.cook4cald.org">Cook4Cald Webstie</a>
-                        <p className="text-xs">(I didnt make the landing website)</p>
+                        <p className="text-black dark:text-white text-xs">(I didnt make the landing website)</p>
                     </div>
                 </div>
             </section>

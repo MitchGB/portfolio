@@ -32,7 +32,7 @@ const RMITFlightProjectPage = () => {
                             Our task was to create a flight training software for RMIT's flight school which interfaces with Eight360's NOVA.
                             NOVA is an immersive motion emulation device which can spin in all 3 directions, simulating g-force on the user.
                         </p>
-                        <p className="mt-2">
+                        <p className="mt-2 text-black dark:text-white">
                             The training software not only interfaces with Eigh360 and the VR headset device, but also track's users' biometric data such
                             as heart rate, oxygen levels, reaction time and more
                             during flight situations which can later be analysed by instructors.
@@ -47,6 +47,7 @@ const RMITFlightProjectPage = () => {
             <section className="w-full flex justify-center bg-gray-100 dark:bg-zinc-900">
                 <div className="w-full xl:w-5/6 max-w-screen-2xl p-5 flex flex-col-reverse xl:flex-row justify-between">
                     <div className="w-full xl:w-1/2 xl:flex justify-start">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0bg4RfuT9gQ?si=TzfmUdl_MqW2mElz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                     </div>
                     <div className="w-full xl:w-1/2">
                         <p className="text-black dark:text-white font-medium text-xl">My role in the project</p>
@@ -54,7 +55,7 @@ const RMITFlightProjectPage = () => {
                             I took both the Project lead and Developer role throughout this project.
                             My primary focus as the lead developer was to orchestrate sprints, scrums and ensure my team were on task.
                         </p>
-                        <p>
+                        <p className="text-black dark:text-white">
                             Additionally, I created the plugin's core which included DLL library loading to allow for a modular plug'n'play
                             system.
                         </p>
@@ -65,18 +66,18 @@ const RMITFlightProjectPage = () => {
             <section className="w-full flex justify-center dark:bg-zinc-900">
                 <div className="w-full xl:w-5/6 max-w-screen-2xl p-5 flex flex-col-reverse xl:flex-row justify-between">
                     <div className="w-full xl:w-1/2">
-                        <p className="text-black dark:text-white font-medium text-xl">Technologies used</p>
+                        <p className="w-ful text-black dark:text-white font-medium text-xl">Technologies used</p>
                         <div>
                             <p className="text-indigo-900 dark:text-white font-medium text-lg">Languages</p>
 
                             <div className="w-full flex flex-col xl:flex-row justify-start mt-5 gap-2">
-                                <div className="flex gap-3 rounded-lg bg-gray-100 p-2 justify-center align-middle">
+                                <div className="flex gap-3 rounded-lg bg-gray-100 dark:bg-zinc-800 p-2 justify-center align-middle">
                                     <img className="h-5 xl:h-5" src={cppLogo} />
-                                    <p className="font-medium">C++</p>
+                                    <p className="text-black dark:text-white font-medium">C++</p>
                                 </div>
-                                <div className="flex gap-3 rounded-lg bg-gray-100 p-2 justify-center align-middle">
+                                <div className="flex gap-3 rounded-lg bg-gray-100 dark:bg-zinc-800 p-2 justify-center align-middle">
                                     <img className="h-5 xl:h-5" src={monkeyCLogo} />
-                                    <p className="font-medium">MonkeyC</p>
+                                    <p className="text-black dark:text-white font-medium">MonkeyC</p>
                                 </div>
                             </div>
                         </div>
