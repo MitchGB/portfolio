@@ -46,8 +46,8 @@ const RMITFlightProjectPage = () => {
 
             <section className="w-full flex justify-center bg-gray-100 dark:bg-zinc-900">
                 <div className="w-full xl:w-5/6 max-w-screen-2xl p-5 flex flex-col-reverse xl:flex-row justify-between">
-                    <div className="w-full xl:w-1/2 xl:flex justify-start">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0bg4RfuT9gQ?si=TzfmUdl_MqW2mElz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    <div className="w-full xl:px-10 xl:w-1/2 xl:flex justify-start">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/0bg4RfuT9gQ?si=TzfmUdl_MqW2mElz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     </div>
                     <div className="w-full xl:w-1/2">
                         <p className="text-black dark:text-white font-medium text-xl">My role in the project</p>

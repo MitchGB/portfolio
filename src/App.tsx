@@ -8,6 +8,7 @@ import ErrorPage from "./pages/ErrorPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import C4CProjectPage from "./pages/C4CProjectPage";
 import RMITFlightProjectPage from "./pages/RMITFlightProjectPage";
+import AboutMePage from "./pages/AboutMePage";
 
 const App = () => {
     const router = createBrowserRouter([
@@ -21,6 +22,11 @@ const App = () => {
                     element: <HomePage />
                 }
             ]
+        },
+        {
+            index: true,
+            path: "about-me",
+            element: <AboutMePage />
         },
         {
             path: "/projects",
