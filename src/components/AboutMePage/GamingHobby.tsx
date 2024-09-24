@@ -1,5 +1,3 @@
-import HobbyCarousel from "./HobbyCarousel";
-
 const GamingHobby = () => {
     return (
         <div className="flex justify-end">

@@ -90,6 +90,20 @@ const ProjectsPage = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="p-2 bg-zinc-100 dark:bg-zinc-800">
+                        <div className="flex flex-col xl:flex-row">
+                            <div className="w-full xl:w-3/12 flex justify-center">
+                                <img className="h-full xl:h-42 rounded-lg" src="/img/packet-events-snippet.png" />
+                            </div>
+                            <div className="w-full xl:w-7/12 xl:ml-4">
+                                <p className="text-black dark:text-white text-xl xl:text-3xl font-medium mb-2">Packet Events Website</p>
+                                <p className="text-black dark:text-white text-sm xl:text-lg">
+                                    Redesigned & Developed PacketEvents website.
+                                </p>
+                                <a className="text-indigo-700" href="https://packetevents.com">PacketEvents Website</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
